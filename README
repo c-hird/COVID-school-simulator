@@ -1,0 +1,17 @@
+This program simulates the effect of COVID-19 on the Fall 2020 semester in schools across the country. For a full breakdown on the research done, please read our research paper at ______________
+
+This program can be used to simulate schools from any county at any level. We ran our simulation on the 39 elementary schools in Spartanburg County. To run this simulation on your own set of schools, follow these steps:
+  1. Create an excel file with three columns:
+    -School name (or some unique ID)
+    -Number of teachers
+    -Number of students
+    **Be sure to include a header of "School, Teachers, Students"
+  2. Export as a .csv file and name it "school_data.csv"
+  3. Replace the existing .csv file with your new .csv file
+  4. Run the program using the "run" button at the top of the page
+  5. Once the program has finished, download the three files labeled "sickness_sim_#.csv"
+  6. Open each file in Excel and sort by "School_Name" in each.
+  7. For each file, copy all rows containing a value in "School_Name" and paste into a new Excel file. This will be your "Simulated_Infections" file containing a report of each case of COVID-19 generated.
+  8. For each file, copy the remaining rows into a new Excel file. This will be your "Simulated_Exposures" file containing a daily report of the number of students and teachers exposed to COVID-19.
+
+For questions, please reach out to me at chird@g.clemson.edu
