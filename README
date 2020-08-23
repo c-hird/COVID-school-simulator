@@ -1,4 +1,9 @@
-This program simulates the effect of COVID-19 on the Fall 2020 semester in schools across the country. For a full breakdown on the research done, please read our research paper at ______________
+This program simulates the effect of COVID-19 on the Fall 2020 semester in schools across the country. For a full breakdown on the research done, please read our attached research paper.
+
+In short, this model simulates three potential scenarios in which elementary schools could operate for the Fall 2020 semester.
+-No Precautions: Return to school as if COVID-19 did not exist
+-Minor Precautions: Limit exposure by cancelling assemblies and hosting lunch in individual classrooms; implement social distancing practices and test individual classrooms when a positive COVID-19 case is detected.
+-Moderate Precautions: Limit exposure further by implementing all precautions from Minor Precautions as well as mandating surgical mask wearing and testing the entire school upon detection of a positive COVID-19 case.
 
 This program can be used to simulate schools from any county at any level. We ran our simulation on the 39 elementary schools in Spartanburg County. To run this simulation on your own set of schools, follow these steps:
   1. Create an excel file with three columns:
@@ -13,5 +18,7 @@ This program can be used to simulate schools from any county at any level. We ra
   6. Open each file in Excel and sort by "School_Name" in each.
   7. For each file, copy all rows containing a value in "School_Name" and paste into a new Excel file. This will be your "Simulated_Infections" file containing a report of each case of COVID-19 generated.
   8. For each file, copy the remaining rows into a new Excel file. This will be your "Simulated_Exposures" file containing a daily report of the number of students and teachers exposed to COVID-19.
+  
+Do note that this will use the Spartanburg County "external odds" or the odds on a given day of catching COVID-19 outside of the school. To calculate this factor for your county, refer to the breakdown of the "EXT_ODDS" variable in the research paper.
 
 For questions, please reach out to me at chird@g.clemson.edu
